@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<script src="main.js"></script>-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniAtlántico</title>
+    <link rel="stylesheet" href="Estilo1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <h1 class="title">
+        SGN (Sistema de Gestión de Notas)
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-file-earmark-bar-graph-fill" viewBox="0 0 16 16">
+            <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm.5 10v-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-2.5.5a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1zm-3 0a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-1z"/>
+          </svg>
+    </h1>
+    <form  method="get">
+        <br><br><br>
+        <label class="input bold" for="role" >Seleccione su rol:</label>
+        <select name="role" id="role">
+            <option value="1">Superadmin</option>
+            <option value="2">Docente</option>
+            <option value="3">Estudiante</option>
+        </select>
+        <br><br>    
+        <p>Usuario: <input class="input" type="text" id="username" name="username" placeholder="Username@uniatlantico.com" required></p>
+        <p>Contraseña: <input class="input" type="password" name="password" id="password" maxlength="100" placeholder="xxxxxx"
+            required></p>
+        <p>
+            <a href="#">Olvidó su contraseña?</a>
+        </p>
+
+    
+        <button type="submit" value="Enviar"> <a href="Vista2.html">Enviar</a> </button>
+
+    </form>
+</body>
+</html>

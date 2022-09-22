@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    color: #f7f4f4;
+    text-align: center;
+    font-family: serif;
+    /*background-color: lightgrey;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*Para el formulario, añadele un tamaño width de 350px, un padding de 16px, un border-radius de 10px, margin auto y un background-color #ccc;*/
+.texto{
+    color: #f7f4f4;
+    font-size: 25px;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body{
+    background-image:url("back_superadmin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+form input{
+    padding: 3px 10px;
+    border: 1px solid #1f1d1d;
+    border-radius: 3px;
+    margin: 8px 10px;
+    
+}
+button{
+    text-align: center;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    margin: 10px auto;
+    
+}
+
+.input{
+    padding: 0px;
+    margin: 0px;
+    margin-right: 100px;
+    padding-right: 10px;
+
+}
+
+.bold{
+    font-size:larger;
+    font-family:'Times New Roman';
+    font-weight: bold;
+}
